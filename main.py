@@ -1,7 +1,22 @@
-"""This module demonstrates a simple 'Hello, World!' example in Python."""
+""" 
+    Programa para calcular a proxima data de nascimento de um jovem.
+"""
 
+#Digitar sua idade
+idade = int(input("Digite sua idade: "))
 
-print("Olá mundo Python!")
+#Calcular a data de nascimento
+data_nascimento = idade + 1
 
-input() # O input() é usado para capturar o input do usuário
-print() # O print() é usado para exibir o resultado
+#Imprimir a data de nascimento
+print("A data de nascimento é:", data_nascimento)
+
+#Imprimir a idade
+print("A idade é:", idade)
+
+#Imprimir o tipo de dado
+z = type(idade)
+
+print(z)
+
+print(idade)
