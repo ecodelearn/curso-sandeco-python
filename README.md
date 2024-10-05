@@ -1,2 +1,2 @@
 # curso-sandeco-python
-curso Sandeco - Python Para Iniciantes
+Curso Sandeco - Python Para Iniciantes
