@@ -11,12 +11,12 @@ data_nascimento = idade + 1
 #Imprimir a data de nascimento
 print("A data de nascimento é:", data_nascimento)
 
-#Imprimir a idade
+# Imprimir a idade
 print("A idade é:", idade)
 
-#Imprimir o tipo de dado
-z = type(idade)
+# Imprimir o tipo de dado
+tipo_idade = type(idade)
 
-print(z)
+print(tipo_idade)
 
 print(idade)
