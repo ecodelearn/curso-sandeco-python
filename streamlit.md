@@ -1,28 +1,50 @@
-**Passos para Configurar Ambiente Virtual Python e Streamlit no Windows**
+### Passos para Configurar Ambiente Virtual Python e Streamlit no Windows, macOS e Linux
 
 1. **Instalar Python (se ainda não instalado)**:
-   - Baixe e instale o Python: https://www.python.org/downloads/
-   - Verifique a instalação:  
-     Abra o Prompt de Comando e digite:
+   - **Windows**: Baixe e instale o Python: https://www.python.org/downloads/
+   - **macOS/Linux**: Python já vem pré-instalado na maioria dos sistemas. Para verificar, use:
      ```bash
-     python --version
+     python3 --version
      ```
+   - Verifique a instalação:
+     - **Windows**: Abra o Prompt de Comando (cmd) e digite:
+       ```bash
+       python --version
+       ```
+     - **macOS/Linux**: Abra o terminal e digite:
+       ```bash
+       python3 --version
+       ```
 
 2. **Criar o Ambiente Virtual (venv)**:
-   - Abra o **Prompt de Comando** e navegue até a pasta do projeto ou crie uma nova pasta:
-     ```bash
-     mkdir meu_projeto
-     cd meu_projeto
-     ```
-   - Crie o ambiente virtual:
-     ```bash
-     python -m venv venv
-     ```
-   - Ative o ambiente virtual:
-     ```bash
-     venv\Scripts\activate
-     ```
-     Você verá `(venv)` antes do prompt, indicando que o ambiente virtual está ativo.
+   - **Windows**:
+     - Abra o **Prompt de Comando** e navegue até a pasta do projeto ou crie uma nova pasta:
+       ```bash
+       mkdir meu_projeto
+       cd meu_projeto
+       ```
+     - Crie o ambiente virtual:
+       ```bash
+       python -m venv venv
+       ```
+     - Ative o ambiente virtual:
+       ```bash
+       venv\Scripts\activate
+       ```
+   - **macOS/Linux**:
+     - Abra o terminal e navegue até a pasta do projeto ou crie uma nova pasta:
+       ```bash
+       mkdir meu_projeto
+       cd meu_projeto
+       ```
+     - Crie o ambiente virtual:
+       ```bash
+       python3 -m venv venv
+       ```
+     - Ative o ambiente virtual:
+       ```bash
+       source venv/bin/activate
+       ```
 
 3. **Instalar o Streamlit**:
    - Com o ambiente virtual ativo, instale o Streamlit:
